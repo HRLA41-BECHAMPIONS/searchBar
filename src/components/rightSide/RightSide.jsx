@@ -1,10 +1,10 @@
 import React from 'react';
 
-import SearchBar from './blockSearch/SearchBar.js';
-import ShippingToLink from './shippingToLink/shippingToLink.js';
-import MiniCart from './minicart/minicart.js';
-import HeaderLinks from './headerLinks/headerLinks.js';
-import WishList from './wishList/wishList.js';
+import SearchBar from './blockSearch/SearchBar.jsx';
+import ShippingToLink from './shippingToLink/shippingToLink.jsx';
+import MiniCart from './minicart/minicart.jsx';
+import HeaderLinks from './headerLinks/headerLinks.jsx';
+import WishList from './wishList/wishList.jsx';
 
 import './RightSide.css';
 
