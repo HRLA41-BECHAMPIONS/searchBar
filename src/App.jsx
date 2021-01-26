@@ -1,7 +1,7 @@
 import React from 'react';
-import Logo from './components/Logo/Logo.js';
-import NavigationMenu from './components/navigationMenu/NavigationMenu.js';
-import RightSide from './components/rightSide/RightSide.js';
+import Logo from './components/Logo/Logo.jsx';
+import NavigationMenu from './components/navigationMenu/NavigationMenu.jsx';
+import RightSide from './components/rightSide/RightSide.jsx';
 
 function App() {
 

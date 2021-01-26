@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import NavItem from './NavItem.js';
+import NavItem from './NavItem.jsx';
 
 const NavigationMenu = () => {
 

@@ -22,7 +22,7 @@ a {
 .icon.wishlist-link:before {
   content:'';
   background-size: contain;
-  background: url(/home/antoine/Documents/HR/Week6/FEC/Repos/bannerProject/banner-project/src/images/heart-icon.svg) center no-repeat;
+  background: url(https://bechampions-assets.s3.us-east-2.amazonaws.com/images/Icons/heart-icon.svg) center no-repeat;
   display: flex;
   height: 42px;
   left: 10px;
