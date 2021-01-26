@@ -1,0 +1,33 @@
+.wishlist {
+  border-left: 1px solid #41445e;
+  border-right: 1px solid #41445e;
+  height: 60px;
+  list-style: none;
+  margin-right: 0;
+  margin-top: 0;
+  order: 3;
+  width: 60px;
+}
+
+.icon.wishlist-link {
+  height: 60px;
+  position: absolute;
+}
+
+a {
+    text-decoration: none;
+    cursor: normal;
+}
+
+.icon.wishlist-link:before {
+  content:'';
+  background-size: contain;
+  background: url(/home/antoine/Documents/HR/Week6/FEC/Repos/bannerProject/banner-project/src/images/heart-icon.svg) center no-repeat;
+  display: flex;
+  height: 42px;
+  left: 10px;
+  margin: 0;
+  position: absolute;
+  top: 12px;
+  width: 43px;
+}

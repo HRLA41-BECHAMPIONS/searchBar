@@ -1,0 +1,43 @@
+.header.links {
+  border-left: 0;
+  color: #202342;
+  display: inline-block;
+  font-family: "Knockout HTF30-JuniorWelterwt";
+  /* font-size: 1.4rem; */
+  font-style: normal;
+  font-weight: 400;
+  height: 60px;
+  line-height: 1.42857143;
+  margin-left: 15px;
+  margin: 0;
+  order: 2;
+  padding: 0;
+}
+
+.links .authorization-link {
+  display: list-item;
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.authorization-link.bfx-remove-element {
+  display: list-item;
+  list-style: none;
+  margin-bottom: 1rem;
+  margin-right: 10px;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.links .authorization-link > a {
+  color: #c2c2c2;
+  font-family: "Knockout HTF30-JuniorWelterwt";
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}

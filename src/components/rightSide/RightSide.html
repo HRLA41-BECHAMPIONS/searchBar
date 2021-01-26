@@ -1,0 +1,98 @@
+<div class="right-side search-active">
+  <div class="shipping-to-link"><span>Shipping To:</span> <span id="bfx-cc-insert-after"></span>
+
+    <div id="bfx-cc-wrapper-collapsed" class="bfx-cc-wrapper
+    bfx-cc-position-right
+    bfx-cc-position-top
+  " style="position: relative; display: block;">
+      <div class="bfx-cc-collapsed" style="height: 25px;">
+        <div class="bfx-cc-menu">
+          <span class="bfx-cc-flag">
+            <a id="bfx-cc-flag-link" href="javascript:void(0)"
+              aria-label="Currently shipping to United States. Click here to change shipping location. Show more content.">
+              <img src="https://bfx-objects.prd.borderfree.com/v1/dist/images/context-chooser/flags/US.gif"
+                alt="United States">
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-block="minicart" class="minicart-wrapper"><a class="icon action showcart"
+      href="https://www.champion.com/checkout/cart/" data-bind="scope: 'minicart_content'"><span class="text">My
+        Cart</span> <span class="counter qty empty"
+        data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading"><span
+          class="counter-number">
+          <!-- ko text: getCartParam('summary_count') -->
+          <!-- /ko -->
+        </span> <span class="counter-label">
+          <!-- ko if: getCartParam('summary_count') -->
+          <!-- /ko -->
+        </span></span></a>
+    <script>
+      window.checkout = { "shoppingCartUrl": "https:\/\/www.champion.com\/checkout\/cart\/", "checkoutUrl": "https:\/\/www.champion.com\/checkout\/", "updateItemQtyUrl": "https:\/\/www.champion.com\/checkout\/sidebar\/updateItemQty\/", "removeItemUrl": "https:\/\/www.champion.com\/checkout\/sidebar\/removeItem\/", "imageTemplate": "Magento_Catalog\/product\/image_with_borders", "baseUrl": "https:\/\/www.champion.com\/", "minicartMaxItemsVisible": 5, "websiteId": "1", "maxItemsToDisplay": 10, "storeId": "1", "customerLoginUrl": "https:\/\/www.champion.com\/customer\/account\/login\/referer\/aHR0cHM6Ly93d3cuY2hhbXBpb24uY29tL3JldmVyc2Utd2VhdmUtaG9vZGllLmh0bWw%2C\/", "isRedirectRequired": false, "autocomplete": "off", "captcha": { "user_login": { "isCaseSensitive": false, "imageHeight": 50, "imageSrc": "", "refreshUrl": "https:\/\/www.champion.com\/captcha\/refresh\/", "isRequired": false, "timestamp": 1611356318 } } };</script>
+    <div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front mage-dropdown-dialog" tabindex="-1"
+      role="dialog" style="display: none;" aria-describedby="ui-id-1">
+      <div class="block block-minicart ui-dialog-content ui-widget-content" data-role="dropdownDialog" id="ui-id-1"
+        style="display: block;">
+        <div id="minicart-content-wrapper" class="bfx-price-container" data-bind="scope: 'minicart_content'">
+          <!-- ko template: getTemplate() -->
+          <div class="block-content">
+            <!-- ko if: getCartParam('summary_count') -->
+            <!-- /ko -->
+
+            <!-- ko if: getCartParam('summary_count') -->
+            <!-- /ko -->
+
+            <!-- ko ifnot: getCartParam('summary_count') -->
+            <strong class="subtitle empty" data-bind="visible: closeSidebar()">
+              <!-- ko i18n: 'You have no shopping items in your cart.' --><span>You have no shopping items in your
+                cart.</span><!-- /ko -->
+            </strong>
+            <!-- /ko -->
+            <!-- ko if: getCartParam('summary_count') -->
+            <!-- /ko -->
+
+            <!-- ko if: getRegion('promotion').length -->
+            <!-- /ko -->
+          </div>
+          <!-- ko foreach: getRegion('sign-in-popup') -->
+          <!-- /ko -->
+          <!-- /ko -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <li class="link wishlist bfx-remove-element" data-bind="scope: 'wishlist'"><a class="icon wishlist-link"
+      href="https://www.champion.com/wishlist/" title="My Favorites">
+      <!-- ko if: wishlist().counter -->
+      <!-- /ko -->
+    </a></li>
+  <div class="block block-search searchbar-active-zindex">
+    <div class="block block-title"><strong>Search</strong></div>
+    <div class="block block-content">
+      <form class="form minisearch" id="search_mini_form" action="https://www.champion.com/catalogsearch/result/"
+        method="get">
+        <div class="field search"><label class="label" for="search"
+            data-role="minisearch-label"><span>Search</span></label>
+          <div class="control"><input id="search" type="text" name="q" value="" data-rfkid="rfkid_6"
+              placeholder="Search" class="input-text rfk_sb" maxlength="128" role="combobox" aria-haspopup="false"
+              aria-autocomplete="both" autocomplete="off" data-tdi="0"><span
+              class="delete-info-search show-info-search"></span>
+            <div class="nested"><a class="action advanced" href="https://www.champion.com/catalogsearch/advanced/"
+                data-action="advanced-search">Advanced Search</a></div>
+          </div>
+        </div>
+        <div class="actions"><button type="submit" title="Search" class="action search"><span>Search</span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <ul class="header links">
+    <div class="page-overlay"></div>
+    <div class="minicart-overlay"></div>
+    <li class="authorization-link bfx-remove-element" data-label="or"><a
+        href="https://www.champion.com/customer/account/login/referer/aHR0cHM6Ly93d3cuY2hhbXBpb24uY29tL3JldmVyc2Utd2VhdmUtaG9vZGllLmh0bWw%2C/">Sign
+        In</a></li>
+  </ul>
+</div>

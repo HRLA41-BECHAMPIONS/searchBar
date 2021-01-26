@@ -1,0 +1,184 @@
+@import url(//db.onlinewebfonts.com/c/68590d1f06ad625cb73b5c34f85b4a1b?family=Luma-Icons);
+form {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  display: block;
+  margin-top: 0em;
+}
+
+
+
+.block-search {
+  border: 0;
+  color: #202342;
+  float: right;
+  height: 60px;
+  margin-bottom: 0;
+  margin-top: 0;
+  order: 5;
+  padding-left: 0;
+  position: relative;
+  /* width: 240px; */
+  z-index: 4;
+}
+
+.block-title {
+  color: #202342;
+  display: none;
+  font-family: "Knockout HTF31","Arial",sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42857143;
+  margin-bottom: 40px;
+}
+
+.block-content {
+  margin-bottom: 0;
+  display: inline-block;
+}
+.form.minisearch {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  color: #202342;
+  font-family: "Knockout HTF31","Arial",sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42857143;
+}
+
+.field.search {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  color: #202342;
+  font-family: "Knockout HTF31","Arial",sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42857143;
+}
+
+.page-header .header.content .right-side .block-search .actions .action.search:before {
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+
+
+.block-search .label::before {
+    margin-right: 20px;
+    color: #c2c2c2;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    height: 25px;
+    left: 10px;
+    line-height: 20px;
+    padding-top: 5px;
+    position: relative;
+    top: 13px;
+    width: 30px;
+}
+
+.block-search input {
+    left: -300%;
+
+}
+input::-webkit-input-placeholder {
+  color: #fff;
+}
+.block-search .label, .block-collapsible-nav .title {
+    border: 0;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.block-search .label {
+    height: 60px;
+    width: 50px;
+}
+
+.block-search input {
+    left: -300%;
+    /* font: 400 13.3333px Arial; */
+    padding: 22px 50px 18px;
+    /* margin: 15px 0; */
+    /* position: static;; */
+}
+
+.block-search .control .input-text {
+	background-color: #e61937;
+	border: 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 17px;
+  height: 100%;
+  width: 100%;
+  /* padding: 0; */
+
+  /* position: static */
+  font-family:"Knockout HTF30-JuniorWelterwt";
+  /*
+	margin: 0;
+	padding: 22px 0 18px 50px;
+	transition: width .5s;
+  width: 30%
+  */
+}
+
+.block-search .action.search {
+  -moz-box-sizing: content-box;
+  background-image: none;
+  background: 0 0;
+  border: 0;
+  box-shadow: none;
+  display: inline-block;
+  font-weight: 400;
+  left: 15px;
+  line-height: inherit;
+  margin: 0;
+  opacity: 1;
+  padding: 0;
+  position: absolute;
+  right: 10px;
+  text-decoration: none;
+  text-shadow: none;
+  top: 0;
+  top: 20px;
+  width: 20px;
+  z-index: 1;
+  text-align: center;
+  align-items: flex-start;
+  content: '\e615';
+  font-family: 'luma-icons';
+  margin: 0;
+  vertical-align: top;
+  display: inline-block;
+  font-weight: 400;
+  overflow: hidden;
+  speak: none;
+  text-align: center;
+}
+
+.block-search .action.search:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #757575;
+  color: #fff;
+  content: '\e615';
+  display: inline-block;
+  font-family: 'luma-icons';
+  font-size: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  line-height: 21px;
+  margin: 0;
+  overflow: hidden;
+  speak: none;
+  text-align: center;
+  vertical-align: top;
+}

@@ -1,0 +1,103 @@
+.minicart {
+  color: #c2c2c2;
+  display: inline;
+  font-family: "Knockout HTF30","Arial",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42857143;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 7px;
+  top: -5px;
+  vertical-align: middle;
+  z-index: 10;
+}
+
+.minicart-wrapper {
+  background: #131635;
+  font-family: "Knockout HTF30","Arial",sans-serif;
+  margin-left: 0;
+  margin-right: -15px;
+  -webkit-order: 4;
+  -ms-flex-order: 4;
+  order: 4;
+  z-index: 4;
+}
+
+/* .icon.action.showcart {
+  color: #e61937;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.4rem;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  text-decoration: none;
+  top: 0;
+  white-space: nowrap;
+  width: 60px;
+} */
+
+/* .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.mage-dropdown-dialog {
+  color: #202342;
+  display: none;
+} */
+
+/* .block.block-minicart.ui-dialog-content.ui-widget-content {
+  background: #fff;
+  border: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #202342;
+  display: block;
+  list-style: none none;
+  margin-top: 0;
+  margin: 0;
+  min-width: 100%;
+  padding: 0 30px 40px;
+  position: absolute;
+  right: -61px;
+  top: 60px;
+  width: 100vw;
+  z-index: -1;
+} */
+
+.subtitle.empty {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 0;
+  padding: 30px 0 20px;
+  text-align: center;
+}
+
+.icon.showcart:before {
+    background: url(/home/antoine/Documents/HR/Week6/FEC/Repos/bannerProject/banner-project/src/images/bag-icon.svg) center no-repeat;
+    background-size: contain;
+    height: 25px;
+    left: 15px;
+    position: absolute;
+    top: 16px;
+    width: 30px;
+}
+
+.minicart-wrapper .showcart:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: #757575;
+    content: '\e611';
+    display: inline-block;
+    font-family: 'luma-icons';
+    font-size: 0;
+    font-weight: 400;
+    line-height: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    speak: none;
+    text-align: center;
+    vertical-align: top;
+}
