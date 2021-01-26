@@ -75,7 +75,7 @@
 }
 
 .icon.showcart:before {
-    background: url(/home/antoine/Documents/HR/Week6/FEC/Repos/bannerProject/banner-project/src/images/bag-icon.svg) center no-repeat;
+    background: url(https://bechampions-assets.s3.us-east-2.amazonaws.com/images/Icons/bag-icon.svg) center no-repeat;
     background-size: contain;
     height: 25px;
     left: 15px;

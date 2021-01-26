@@ -16,5 +16,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log('express is listening on port 8000');
+  console.log(`express is listening on port ${port}`);
 });

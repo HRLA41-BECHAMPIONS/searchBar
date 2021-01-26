@@ -8,7 +8,7 @@ A small visual bug on the wishlist section.
 
 Transform *App.js*'s inline styles into a css stylesheet.
 
-Merge all component stylesheets to ensure that there are no conflicts between them. h
+Merge all component stylesheets to ensure that there are no conflicts between them.
 
 **How to navigate:**
 
@@ -18,4 +18,4 @@ The components folder contains:
 
 **Latest Changes**
 
-  I switched the setup over to be dependent on npm rather than on yarn. This had the advantage of making the whole project closer of the rest of the BeChampions' repos but actually broke the start scripts. I'm still trying to figure out the webpack config for this thing.
+  I switched the setup over to be dependent on npm rather than on yarn. This had the advantage of making the whole project closer of the rest of the BeChampions' repos.

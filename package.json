@@ -16,7 +16,7 @@
     "webpack": "^5.17.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/SearchBarServer.js",
     "build": "webpack -w"
   },
   "eslintConfig": {
